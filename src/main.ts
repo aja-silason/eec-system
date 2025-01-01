@@ -4,6 +4,7 @@ interface EEGData {
     data: ArrayBuffer;
 }
 
+
 const port = new SerialPort('COM3', {
     baudRate: 115200,
 });
