@@ -20,3 +20,4 @@ port.on('data', (data: ArrayBuffer) => {
 port.on('error', (err: Error) => {
     console.error('Erro na comunicação serial:', err.message);
 });
+
